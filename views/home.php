@@ -19,7 +19,6 @@
     <main class="container">
         <hgroup style="text-align: center; margin-bottom: 3rem;">
             <h1> <?= htmlspecialchars($data['title']) ?></h1>
-            //<p>Môi trường: <strong><?= htmlspecialchars($data['app_env']) ?></strong> | Quản lý bởi: <strong><?= htmlspecialchars($data['organizer']) ?></strong></p>
         </hgroup>
 
         <h3>Danh sách thiết bị (Kho)</h3>
